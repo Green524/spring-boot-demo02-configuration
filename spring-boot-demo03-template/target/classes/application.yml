@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+#freemaker路径配置
+spring:
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .ftl
+
+
+  messages:
+    basename=i18n/message:

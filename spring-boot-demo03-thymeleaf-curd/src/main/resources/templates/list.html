@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link  rel="stylesheet" th:href="@{/bootstrap.css}">
+    </head>
+    <body>
+        <div class="container">
+            <h1 align="center">S11世界赛冠军队伍</h1>
+            <table class="table table-hover">
+                <thead>
+                    <th>名字</th>
+                    <th>位置</th>
+                    <th>操作</th>
+                </thead>
+                <tbody th:each="team:${teamList}">
+                    <td th:text="${team.name}">name</td>
+                    <td th:text="${team.position}">position</td>
+                    <td>
+                        <a th:href="@{/team/updatePage(name=${team.name})}">编辑</a>&nbsp;||&nbsp;
+                        <a th:href="@{/team/delete(name=${team.name})}">删除</a>
+                    </td>
+                </tbody>
+            </table>
+            <a href="/temp/addPage" class="btn btn-info">add</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+com\chen\DemoApplication.class
+com\chen\config\VegetableConfig.class
+com\chen\bean\Fruit.class
+com\chen\bean\Food.class
+META-INF\spring-configuration-metadata.json
+com\chen\config\FoodConfig.class
+com\chen\controller\ConfigController.class
+com\chen\config\FruitConfig.class
+com\chen\bean\Vegetables.class

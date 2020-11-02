@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "food.meat",
+      "type": "java.lang.String",
+      "description": "Description for food.meat."
+    }
+  ]
+}

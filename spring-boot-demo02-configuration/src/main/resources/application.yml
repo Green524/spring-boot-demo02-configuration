@@ -1,0 +1,30 @@
+#端口
+server:
+  port: 8081
+
+---
+food:
+  meat: 烤肉
+  rice: 拌饭
+  saces:
+    - 咖喱
+    - 原味
+    - 粑粑
+
+vegetables:
+  eggplant: 茄子
+  greenpepper: 青椒
+  potato: 土豆
+
+fruit:
+  banana: 香蕉
+  durian: 榴莲
+  mango: 芒果
+
+#加密器解密
+jasypt:
+  encryptor:
+    password: 123456!@#
+info:
+  username: ENC(DuggqXEIvKfGdVONGDA42A==)
+  password: ENC(U4NZ4Q+w3X8+7GrdnwgFXw==)

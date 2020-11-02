@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "name": "food",
+      "type": "com.chen.config.FoodConfig",
+      "sourceType": "com.chen.config.FoodConfig"
+    },
+    {
+      "name": "fruit",
+      "type": "com.chen.config.FruitConfig",
+      "sourceType": "com.chen.config.FruitConfig"
+    },
+    {
+      "name": "jasypt",
+      "type": "com.chen.config.JasyptConfig",
+      "sourceType": "com.chen.config.JasyptConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "com.chen.config.VegetableConfig",
+      "sourceType": "com.chen.config.VegetableConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "food.meat",
+      "type": "java.lang.String",
+      "description": "Description for food.meat.",
+      "sourceType": "com.chen.config.FoodConfig"
+    },
+    {
+      "name": "food.rice",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.FoodConfig"
+    },
+    {
+      "name": "food.saces",
+      "type": "java.lang.String[]",
+      "sourceType": "com.chen.config.FoodConfig"
+    },
+    {
+      "name": "fruit.banana",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.FruitConfig"
+    },
+    {
+      "name": "fruit.durian",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.FruitConfig"
+    },
+    {
+      "name": "fruit.mango",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.FruitConfig"
+    },
+    {
+      "name": "jasypt.password",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.JasyptConfig"
+    },
+    {
+      "name": "jasypt.username",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.JasyptConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.VegetableConfig"
+    },
+    {
+      "name": "vegetables.greenpepper",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.VegetableConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "com.chen.config.VegetableConfig"
+    }
+  ],
+  "hints": []
+}
